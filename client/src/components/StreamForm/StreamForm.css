@@ -1,0 +1,123 @@
+.form_body {
+    background-color: #313131;
+    display: flex;
+    margin-top: 3em;
+}
+
+.form-cnt {
+    /* background-color: beige; */
+    width: 70%;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
+.form-cnt_title {
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 3em;
+    display: flex;
+    margin-bottom: 10px;
+    padding: .6em 0;
+}
+
+.form-cnt_form {
+    /* background-color: rgba(165, 42, 42, 0.365); */
+    padding: 1em 0;
+}
+
+.form_container {
+    /* background-color: azure; */
+    padding: 3em;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.card_input {
+    /* background-color: rgba(42, 165, 151, 0.365); */
+    margin-top: 1em;
+    /* border: 1px solid black; */
+    padding: 1rem;
+    color: hsl(219, 29%, 14%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card_input label {
+    color: #fefefe;
+
+}
+
+.card_input input{
+    
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    margin: 0 auto;
+    border: none;
+    border-radius: 16px;
+}
+
+.card_input textarea {
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    border: none;
+    border-radius: 16px;
+}
+
+.card_input--categories {
+    /* background-color: rgba(42, 57, 33, 0.539); */
+    display: flex;
+    justify-content: center;
+    height: auto;
+    
+}
+
+.card_categories {
+    /* background-color: rgba(0, 0, 255, 0.382); */
+    padding: 1rem;
+    margin: 1px auto;
+    width: 5em;
+
+}
+
+
+.card_input_title {
+    font-size: 1.3rem;
+}
+
+.card_input_name {
+    height: 40px;
+}
+
+.card_input_description {
+    height: 90px;
+}
+
+.btn-send {
+    /* background-color: cadetblue; */
+}
+
+.btn-send button  {
+    border-radius: 16px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #000000;
+    
+    font-weight: 600;
+    width: 10em;
+    background-color: #03EFFE;
+    height: 1.5em;
+    border: none;
+    
+    padding: .5em;
+    transition: .3s;  
+}
+
+.btn-send button:hover {
+    color: #fefefe;
+    background-color: #05cedd;
+    transition: .3s;   
+}
